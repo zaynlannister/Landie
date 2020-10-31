@@ -1,0 +1,309 @@
+body {
+	font-family: Roboto;
+
+	background-image: url('images/hero-image.png'); 
+	background-size: 1500px;
+	background-repeat: no-repeat; 
+	background-position: top right; 
+}
+
+/* GLOBAL STYLES */
+
+a {
+	text-decoration: none
+}
+
+.container {
+	width: 1120px;
+	margin: 0 auto;
+}
+
+.button {
+	display: inline-block;
+	padding: 12px 60px;
+	border-radius: 3px;
+	font-size: 12px;
+}
+
+.button-primary {
+	color: #fff;
+	background-color: #111B47;
+}
+
+.button-bordered {
+	color: #091133;
+	border: 2px solid #111B47;
+}
+
+
+
+/* HEADER */ 
+
+.header-nav, .header-logo, .header-action {
+	display: inline-block;
+	width: 33%;
+}
+
+
+.header-logo , .footer-logo {
+	text-align: center;
+}
+
+.header-action , .footer-action , .footer-icons {
+	text-align: right;
+}
+
+
+/* HEADER NAV */
+
+.header-nav a {
+	color: #505F98;
+	margin-right: 55px;
+} 
+
+.header-nav a:last-child {
+	margin-right: 0px;
+}
+
+
+/* HEADER LOGO */ 
+
+.header-logo , .footer-logo {
+	font-weight: 700;
+	font-size: 26px;
+	color: #37447E;
+	position: relative;
+	top: 6px;
+}
+
+
+/* HEADER BUTTON */
+
+.header-action a {
+	position: relative;
+	top: 4px;
+}
+
+
+
+
+/* HERO SECTION */
+
+.hero {
+	width: 560px;
+	padding-top: 130px;
+	margin-bottom: 300px;
+}
+
+.hero h1 {
+	font-size: 50px;
+	font-weight: 500;
+	color: #091133;
+}
+
+.hero p {
+	font-size: 18px;
+	line-height: 30px;
+	color: #505F98;
+}
+
+.hero-links {
+	margin-top: 60px;
+}
+
+.hero-links a {
+	display: inline-block;
+	margin-right: 24px;
+}
+
+
+.hero-links:last-child {
+	margin-right: 0px;
+}
+
+
+
+/* FEATURES */
+
+.feature {
+	margin-bottom: 140px;
+}
+
+.feature-image, .feature-text {
+	display: inline-block;
+}
+
+.feature-image {
+	width: 550px;
+	position: relative;
+	top: 24px;
+}
+
+.feature-image img {
+	width: 500px;
+}
+
+.feature-text {
+	width: 500px;
+}
+
+.feature-text h2 {
+	font-size: 42px;
+	color: #091133;
+}
+
+.feature-text p {
+	color: #6F7CB2;
+	font-size: 18px;
+	line-height: 28px;
+}
+
+.feature-links {
+	margin-top: 50px;
+}
+
+
+/* PRICING */
+
+.pricing {
+	background-image: url('images/price-background.png');
+	background-repeat: no-repeat;
+	background-size: 120%;
+	background-position: 0 0;
+	margin-top: 500px;
+	padding-top: 260px;
+	padding-bottom: 0px;
+}
+
+.pricing-head {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.pricing-title {
+	font-size: 42px;
+	color: #091133;
+} 
+
+.pricing-description {
+	font-size: 18px;
+	line-height: 28px;
+}
+
+
+/* PRICE CARD */
+
+.price-card {
+	width: 210px;
+	text-align: center;
+	margin: 100px auto;
+} 
+
+.price-card__value {
+	font-size: 52px;
+	font-weight: 600;
+	color: #222F65;
+	margin: 10px 0;
+}
+
+.price-card__title {
+	color: #37447E;
+}
+
+.price-card__actions {
+	margin-top: 50px;
+}
+
+/* FOOTER */
+
+.footer-nav , .footer-logo, .footer-action {
+	display: inline-block;
+	width: 33%;
+}
+
+.footer-background {
+	background-color: #E7ECFF;
+	padding: 50px;
+}
+
+.footer-line {
+	border-bottom: 1px solid #CDD1D4;
+	width: 1120px;
+	margin: 40px 0px;
+}
+
+.footer-nav a {
+	color: #939EA4;
+}
+
+.lastbutton {
+	display: inline-block;
+	padding: 8px 35px;
+	border-radius: 3px;
+	font-size: 12px;
+
+	color: #fff;
+	background-color: #111B47;
+
+	position: relative;
+	top: 6px;
+}
+
+.footer-second , .footer-icons {
+	display: inline-block;
+	width: 100%;
+}
+
+.footer-second a {
+	color: #929ECC;
+	font-size: 15px;
+	margin-right: 50px;
+}
+
+/*    ПОЧЕМУ ТО НЕ РОБИТ ЛАСТ ЧАЙЛД(  */
+
+.footer-second a:last-child { 
+	margin-right: 2px;
+}
+
+.icons img {
+	margin-left: 30px;
+	position: relative;
+	bottom: 7px;
+}
+
+.icons {
+	cursor: pointer;
+}
+
+/*ПЕРЕНЕС ВВЕРХ К ТАКИМ ЖЕ*/
+
+/*.footer-logo {
+	text-align: center;
+}
+
+.footer-action {
+	text-align: right;
+}
+
+.footer-logo {
+	те же характеристики
+}
+
+       ВТОРОЙ БЛОК
+
+.footer-icons {
+	text-align: right;
+}
+
+*/
+
+
+
+/* MEDIA QUERIES */ 
+
+@media (max-width: 1500px) {
+	body {
+		background-size: 800px;
+	}
+}
